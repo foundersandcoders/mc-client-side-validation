@@ -21,7 +21,7 @@ Client side form validation is the process of testing, and ensuring, that the us
 ![validation-challenge-1](https://user-images.githubusercontent.com/2305591/29023296-0c2107a2-7b65-11e7-9577-5eafb9683a4b.png)
 
 
-Firstly, style the form as closely as you can to the designs. **Making your own stylistic choices is strongly encouraged.**
+Firstly, style the form using the design as a guide. **Making your own stylistic choices is strongly encouraged.**
 
 Finally, satisfy the following requirements for when the user clicks the submit button:
 * if the passwords do not match, please provide a warning as shown in screen two  
