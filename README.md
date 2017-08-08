@@ -33,7 +33,7 @@ Finally, satisfy the following requirements for when the user clicks the submit 
 
 Requirements:
 * don't used inline HTML handlers
-* 
+* html5 comes with it's own pop up windows for validation. You should use the attribute which overrides this default behaviour.
 
 ### Stretch goal:
 * add rules to the password field, so that you can guide users to create stronger passwords
