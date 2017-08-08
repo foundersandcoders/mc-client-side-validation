@@ -1,0 +1,40 @@
+body {
+  margin: auto;
+  max-width: 500px;
+  font-family: 'Raleway', sans-serif;
+  background: #22c1c3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #fdbb2d, #22c1c3);
+background: -o-linear-gradient(left, #fdbb2d, #22c1c3);
+background: linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+form {
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-family: 'Righteous', cursive;
+}
+input {
+  display: block;
+  margin: 1% auto;
+  padding: 2%;
+  width: 90%;
+  border: darkslategrey 2px solid;
+}
+.warning {
+  border: red 2px solid;
+}
+
+.submit {
+  margin: 2% auto;
+  width: 45%;
+}
+
+.invisible {
+  display: none;
+}
+h3 {
+  text-align: center;
+  text-color: red;
+}

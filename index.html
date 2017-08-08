@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Righteous" rel="stylesheet">
     <title>Client Side Validation Challenge</title>
   </head>
   <body>
@@ -10,16 +11,16 @@
       <h1>Sign up</h1>
 
       <form>
-        <label for="email">Email:
-          <input id="email"/>
-        </label>
-        <label for="password">Password:
-          <input id="password"/>
-        </label>
-        <label for="confirmPassword">Confirm password:
-          <input id="confirmPassword"/>
-        </label>
+          <input id="email" placeholder="Email"/>
+          <input id="password" placeholder="Password" type="password"/>
+          <input id="confirmPassword" placeholder="Confirm Password" type="password"/>
+          <input id="submit" class="submit" type="submit" value="Submit"/>
       </form>
+      <section>
+        <h3 class="invisible" id="passwordWarning">Passwords you've entered do not match</h3>
+        <h3 class="invisible" id="emailWarning">Please enter a valid email address</h3>
+        <h3 class="invisible" id="noEmailWarning">Please enter an email address</h3>
+      </section>
 
     <script src="index.js" type="text/javascript"></script>
   </body>
