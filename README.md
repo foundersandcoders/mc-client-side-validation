@@ -31,6 +31,9 @@ Finally, satisfy the following requirements for when the user clicks the submit 
     * if email is empty, warning should say 'please enter an email address'
     * if password or confirm password are empty, warning should say 'please enter a password'
 
+Requirements:
+* don't used inline HTML handlers
+* 
 
 ### Stretch goal:
 * add rules to the password field, so that you can guide users to create stronger passwords
