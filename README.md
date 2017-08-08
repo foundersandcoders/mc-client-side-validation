@@ -10,6 +10,7 @@ Client side form validation is the process of testing, and ensuring, that the us
     * empty mandatory fields
     * passwords not matching when registering
     * email address not in the right format
+    * _any time_ you want to control the format in which a user enters information into an input (e.g. form or post data)
 * saves resources as you do not have to make a call to the server to check if a user's data is inputted in a valid format
 
 ###### Cons
