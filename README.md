@@ -22,8 +22,6 @@ Client side form validation is the process of testing, and ensuring, that the us
 
 Firstly, style the form as closely as you can to the designs. **Making your own stylistic choices is strongly encouraged.**
 
-Secondly, add the html5 attribute that will stop validating the input fields, as you'll be creating your own custom warning messages.
-
 Finally, satisfy the following requirements for when the user clicks the submit button:
 * if the passwords do not match, please provide a warning as shown in screen two  
 * if the email is not valid, please provide a warning as shown in screen 3
@@ -32,8 +30,8 @@ Finally, satisfy the following requirements for when the user clicks the submit 
     * if password or confirm password are empty, warning should say 'please enter a password'
 
 Requirements:
-* don't used inline HTML handlers
-* html5 comes with it's own pop up windows for validation. You should use the attribute which overrides this default behaviour.
+* don't use inline HTML handlers
+* html5 comes with it's own pop up windows for validation. You'll be creating your own custom warning messages, so you should use the attribute which overrides this default behaviour.
 
 ### Stretch goal:
 * add rules to the password field, so that you can guide users to create stronger passwords
