@@ -7,14 +7,14 @@
 .signup {
   width: 300px;
   height: 500px;
-  margin: 1rem auto;
-  padding: 1rem;
+  margin: 1em auto;
+  padding: 1em 1em 0;
   background: rgb(243, 243, 243);
   border-radius: 5px;
 }
 .signup h1 {
   width: 70%;
-  margin: 2rem auto;
+  margin: 1.5em auto;
   display: block;
 }
 
@@ -24,14 +24,14 @@
 .signup__form label {
   width: 70%;
   display: block;
-  margin: 1rem auto;
+  margin: 1em auto;
 }
 
 .signup__form input {
   width: 100%;
   height: 30px;
   display: block;
-  margin: 1rem auto;
+  margin: 1em auto;
   padding: 0.5em;
   outline: none;
   border: 1px solid rgba(3, 3, 3, 0.99);
@@ -43,7 +43,7 @@
   width: 70%;
   height: 30px;
   display: block;
-  margin: 2rem auto;
+  margin: 2em auto;
   outline: none;
   border: none;
   border-radius: 5px;
@@ -55,7 +55,8 @@
 
 .error {
   width: 70%;
-  margin: 2rem auto;
+  min-height: 1.2em;
+  margin: 2em auto;
   font-size: 10px;
   color: red;
   text-transform: uppercase;
