@@ -1,24 +1,17 @@
-# Client Side Validation
+# Client-side Validation
 
-In this challenge, you'll be _styling and validating a sign up form_, a common use case for client side validation.
+In this challenge, you'll be **styling and validating a sign up form**, a common use case for client-side validation.
 
-## What is client side validation?
+## What is client-side validation?
 
 Client side form validation is the process of testing and ensuring that the user has entered required and properly formatted information through the web form. Client side validation is done on the client side - i.e. on the user's browser.
 
-##### Pros
+#### Benefits
+- Client-side validation can be a **great UX win** when implemented well, giving users instant and helpful feedback. It is a powerful and now very common feature- check out the sign-up form on one of your favourite websites for inspiration.
+- It also **reduces server load**, by stopping requests with invalid data from being sent.
 
-* visually informs users about errors they may have made when inputting information, _i.e._
-  * empty mandatory fields
-  * passwords not matching when registering
-  * email address not in the right format
-  * _any time_ you want to control the format in which a user enters information into an input (e.g. form or post data)
-* saves resources as you do not have to make a call to the server to check if a user's data is inputted in a valid format
-
-##### Cons
-
-* not 100% fool-proof
-* no matter how much front-end validation you have, you should still validate on the server side to ensure that your form is secure
+#### Important Note
+Client-side validation **does not offer increased security**, because 'invalid' requests can easily be sent outside of the browser, e.g. using a tool like `curl`. Therefore client-side validation should be used in addition to server-side validation.
 
 ## The task
 
@@ -26,7 +19,7 @@ Client side form validation is the process of testing and ensuring that the user
 
 #### Challenge
 
-You'll be making a sign up form which is validated on the client side.
+You'll be making a sign up form which is validated on the client-side.
 
 #### Technical requirements:
 
