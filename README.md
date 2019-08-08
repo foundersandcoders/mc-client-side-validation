@@ -2,6 +2,16 @@
 
 In this challenge, you'll be **styling and validating a sign up form**, a common use case for client-side validation.
 
+### Learning Outcomes
+Understand:
+
+* what client side validation is
+
+Be able to implement:
+
+* client-side validation on an HTML sign up form
+
+
 ## What is client-side validation?
 
 Form validation is the process of checking the user has entered the required information in the correct format. As a simple example, usually an email address input must contain an '@' symbol.
